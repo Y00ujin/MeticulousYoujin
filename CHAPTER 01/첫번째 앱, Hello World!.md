@@ -467,3 +467,31 @@ class ViewController: UIViewController {
 <br>
 
 ### 버튼 연결
+##### 우선 Xcode 왼쪽의 인터페이스 빌더에 있는 첫번째 뷰 컨트롤러에서 인사하기 버튼을 선택한 후, 라벨을 연결했을 때와 동일한 방법으로 오른쪽 소스 창으로 드래그합니다. 이때 viewDidLoad 함수 아래에 드래그 해야합니다.
+<br>
+
+<p align="center"> 
+<img width="625" alt="스크린샷 2022-06-21 오후 1 48 37" src="https://user-images.githubusercontent.com/71479613/174718470-49701cea-edf4-4f15-b72d-be31e42bdba1.png">
+</p>
+
+<br>
+<br>
+<br>
+
+### 버튼 터치 시 실행할 코드 작성하기
+##### 이제 정말 버튼을 클릭했을 때 텍스트가 변하도록 코드를 작성해보겠습니다. 사용자가 버튼을 터치했을 경우 실행할 코드를 sayHello 메소드에 추가하겠습니다. sayHello 메소드에 다음 코드를 작성합니다.
+<br>
+
+<p align="center"> 
+<img width="608" alt="스크린샷 2022-06-21 오후 1 52 37" src="https://user-images.githubusercontent.com/71479613/174718891-a71741a2-fb54-4167-a88b-e66d015fa704.png">
+</p>
+
+<br>
+<br>
+
+##### 이제 끝입니다. 실행해보면 버튼 클릭 시 첫번째 화면 라벨이 Hello, World!로 변경되는 것을 확인할 수 있습니다.
+<br>
+
+<p align="center"> 
+<img width="281" alt="스크린샷 2022-06-21 오후 1 56 20" src="https://user-images.githubusercontent.com/71479613/174719294-a9637203-6e0e-4fea-be13-9426ac1e4eff.png">
+</p>
